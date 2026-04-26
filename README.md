@@ -30,6 +30,5 @@ This project analyzes a comprehensive Amazon dataset with the following scope:
 ### Best Payment Methods
 ![Best payment methods](Best%20payment%20methods)
 
-###  Analysis
+### Category & Ratings Analysis
 ![Analysis](Analysis)
-
