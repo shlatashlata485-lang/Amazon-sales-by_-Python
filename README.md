@@ -1,34 +1,52 @@
-# Amazon Global Sales Analysis 🌍
+# 📊 Amazon Sales Analysis: Business Insights & Data Strategy
 
-## 1️⃣ Data Overview (بيانات المشروع)
-This project analyzes a comprehensive Amazon dataset with the following scope:
-* **Total Transactions:** 13,000+ orders.
-* **Total Revenue:** $8.4 Million.
-* **Markets covered:** Middle East, North America, Europe, and Asia.
-* **Tools:** Python (Pandas, Plotly, Seaborn).
+هذا المشروع مش مجرد تحليل بيانات عادي، هو محاكاة لقرار بزنس حقيقي مبني على أرقام ضخمة (أكثر من **13 ألف طلب**) بإجمالي مبيعات **8.4 مليون دولار**. الهدف كان إيجاد الفرص الضايعة وازاي نقدر نكبر الأرقام دي باستخدام **Python**.
 
 ---
 
-## 2️⃣ Insights & Recommendations (النتائج والتوصيات)
-
-### ⚠️ Challenges Faced:
-* **Data Cleaning:** Handled missing values and standardized data types for accurate revenue calculation.
-* **Visualization:** Managed complex geospatial data to represent global sales distribution.
-
-### 🚀 Business Recommendations:
-1. **Target the Middle East:** As the highest revenue generator ($2.13M), marketing campaigns should be prioritized for this region to maximize ROI.
-2. **Optimize Payment Gateways:** With **Wallets** being the preferred method ($1.7M), streamlining digital wallet payments will reduce cart abandonment.
-3. **Product Bundling:** High demand in **Fashion** and **Electronics** suggests that bundling accessories with apparel can increase the Average Order Value (AOV).
+## 📂 1. Data Overview (إيه المشروع؟)
+استخدمت مكتبات البايثون (Pandas, Plotly, Seaborn) عشان أحلل داتا شاملة لمبيعات أمازون العالمية. التحليل ركز على:
+* **توزيع المبيعات جغرافيًا** لمعرفة أقوى الأسواق.
+* **سلوك الدفع** عند الزبائن.
+* **تأثير الخصومات** على المكسب الصافي.
 
 ---
 
-## 3️⃣ Visual Analysis (الرسوم البيانية)
+## ⚠️ 2. Challenges & Solutions (المشاكل اللي واجهتني وحلها)
 
-### Global Sales Distribution
-![Sales in the region](Sales%20in%20the%20region)
+### **المشكلة الأولى: لغز الخصومات (The Discount Trap)** 📉
+* **المشكلة:** لاحظت في الرسم البياني إن كل ما بنزود الخصم عن **5%**، متوسط الإيراد لكل طلب بينزل بشكل كبير. ده معناه إننا بنخسر فلوس عشان نجيب زبائن.
+* **الحل:** اقترحت إننا نثبت سقف للخصومات عند **5% لـ 10%** كحد أقصى، ونستبدل الخصومات الكبيرة بعروض "شحن مجاني" أو "نقاط ولاء".
 
-### Best Payment Methods
-![Best payment methods](Best%20payment%20methods)
+![Impact of Discount](./visuals/Impact%20of%20Discount%20Percentage%20on%20Average%20Revenue.png)
 
-### Category & Ratings Analysis
-![Analysis](Analysis)
+### **المشكلة الثانية: النمو البطئ (Steady but Slow Growth)** 📈
+* **المشكلة:** الأرقام بينت إن النمو من 2022 لـ 2023 كان مستقر بس بطيء.
+* **الحل:** بما إن "المحافظ الإلكترونية" (Wallets) هي الوسيلة المفضلة، فالحل هو تكثيف العروض لمستخدمي هذه الوسيلة لزيادة سرعة المبيعات.
+
+![Sales by Year](./visuals/Sales%20by%20year.png)
+
+---
+
+## 🚀 3. Final Business Recommendations (الخلاصة)
+1. **الاستثمار في الشرق الأوسط:** بما أنها المنطقة الأعلى مبيعاً بـ **2.13M$**، لازم ميزانية الإعلانات تتوجه هناك فوراً.
+2. **عروض الـ Cross-selling:** مبيعات الأقسام (ملابس، إلكترونيات، تجميل) متوازنة جداً، وده بيسمح لنا نعرض منتجات تجميل للي بيشتري ملابس ونزود سلة المشتريات.
+
+---
+
+## 🖼️ 4. Visual Gallery (معرض التحليلات)
+
+### توزيع المبيعات حسب المنطقة
+![Regional Sales](./visuals/Sales%20in%20the%20region.png)
+
+### أفضل طرق الدفع استخداماً
+![Payment Methods](./visuals/Best%20payment%20methods.png)
+
+### تحليل الإيرادات حسب الفئة
+![Category Revenue](./visuals/Total%20Revenue%20by%20Category.png)
+
+### إحصائيات عامة
+![Analysis Stats](./visuals/analysis.png)
+
+---
+*تم إعداد هذا التحليل بواسطة محمد محمود - محلل بيانات.*
