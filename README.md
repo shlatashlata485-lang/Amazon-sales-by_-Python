@@ -1,10 +1,24 @@
-​Amazon Global Sales Analysis (Python)
-​This project provides a comprehensive analysis of Amazon's global sales data across multiple regions, including the Middle East, North America, Asia, and Europe.
-​📊 Key Performance Indicators (KPIs)
-​Total Revenue: $8.4 Million.
-​Total Orders: 13,000 orders.
-​Top Region: Middle East with $2.13 Million in sales.
-​💡 Technical Skills Shown
-​Data Processing: Using Python (Pandas) to handle large datasets.
-​Geospatial Analysis: Visualizing sales distribution on a world map.
-​Payment Trends: Identifying that Wallets and UPI are the leading payment methods.
+# مشروع تحليل مبيعات أمازون العالمية (Python)
+
+هذا المشروع يهدف إلى تحليل بيانات مبيعات أمازون لأكثر من **13 ألف طلب** للوصول إلى رؤى تسويقية دقيقة.
+
+## 📊 أهم النتائج المرئية
+### 1. توزيع المبيعات عالمياً
+اكتشفت من خلال التحليل أن **الشرق الأوسط** هو السوق الأعلى مبيعاً بإجمالي **2.13 مليون دولار**.
+
+![Sales Map](map.png)
+
+### 2. المبيعات حسب الفئة (Category)
+قسم الـ **Fashion** يتصدر المبيعات يليه الـ **Electronics** بقيم تقترب من **1.4 مليون دولار** لكل منهما.
+
+![Categories Chart](categories.png)
+
+### 3. طرق الدفع الأكثر استخداماً
+طريقة الـ **Wallet** هي الأكثر استخداماً بإجمالي مبيعات **1.7 مليون دولار**.
+
+![Payment Methods](payments.png)
+
+## 🛠️ الأدوات المستخدمة
+* **Python**: (Pandas, Matplotlib, Plotly).
+* **Google Colab**: للبيئة التطويرية.
+*
