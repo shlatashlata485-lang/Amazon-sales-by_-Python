@@ -1,62 +1,51 @@
-# 📦 Amazon Global Sales Analysis: $33M Data Strategy (50K Records)
+# 📊 Amazon Global Sales Analysis ($33M Revenue)
 
-## 🌟 Introduction (مقدمة المشروع)
-هذا المشروع يمثل تحليلًا معمقًا لبيانات التجارة الإلكترونية، حيث قمت بمعالجة وتحليل **50,000 سجل بيع** (Orders) من أمازون. المشروع يغطي إجمالي إيرادات ضخم يصل إلى **33,000,000 دولار**. الهدف الأساسي كان تحويل هذه الأرقام إلى رؤى إستراتيجية تساعد في اتخاذ قرارات بزنس ذكية مبنية على البيانات.
-
----
-
-## 📊 1. Final Dashboard & Key Metrics (الأرقام النهائية)
-*توضح هذه اللوحة الأداء العام المحدث للمشروع بناءً على أحدث التحليلات:*
-
-<p align="center">
-  <img src="./Data%20images/analysis.png" alt="Main Dashboard" width="80%">
-</p>
-
-* **إجمالي الإيرادات (Total Revenue):** **33 مليون دولار**.
-* **إجمالي الطلبات (Total Orders):** **50,000 طلب**.
-* **متوسط الطلبات اليومي (Daily Avg Orders):** **68 طلب يومياً**.
+## 🌟 Executive Summary
+Analyzed a massive dataset of **50,000 orders** generating over **$33 Million** in total revenue. This project focuses on identifying profitability leaks and optimizing sales strategy through data-driven insights.
 
 ---
 
-## 💡 2. Deep Dive: Challenges & Solutions (المشاكل والحلول المبتكرة)
+## 📈 1. Performance Overview
+* **Total Revenue:** $33M
+* **Total Orders:** 50,000
+* **Daily Sales Velocity:** 68 Orders/Day
 
-### **⚠️ المشكلة الأولى: فخ الخصومات (The Discount Trap)**
 <p align="center">
-  <img src="./Data%20images/Impact%20of%20Discount%20Percentage%20on%20Average%20Revenue.png" alt="Discount Impact" width="70%">
+  <img src="./Data%20images/analysis.png" width="80%">
 </p>
-
-* **المشكلة:** كشف التحليل عن علاقة عكسية خطيرة؛ فكلما زادت نسبة الخصم عن **5%**، انخفض متوسط إيراد الطلب بشكل حاد.
-* **الحل:** التوصية بوضع سقف للخصومات عند **10%** كحد أقصى للحفاظ على هوامش الربح، مع استبدال الخصومات الكبيرة بعروض قيمة مضافة مثل الشحن المجاني.
-
-### **⚠️ المشكلة الثانية: استقرار معدل النمو السنوي (Yearly Growth)**
-<p align="center">
-  <img src="./Data%20images/Sales%20by%20year.png" alt="Yearly Sales" width="60%">
-</p>
-
-* **المشكلة:** يظهر التحليل استقراراً في المبيعات بين عامي 2022 (بقيمة 16.38M$) و2023 (بقيمة 16.47M$).
-* **الحل:** اقترحت تحفيز سرعة المبيعات من خلال استهداف وسيلة الدفع الأكثر نمواً وهي **المحافظ الإلكترونية (Wallets)** لزيادة عدد الطلبات اليومية.
 
 ---
 
-## 🖼️ 3. Visual Gallery of Insights (معرض التحليلات البصرية)
+## 💡 2. Strategic Business Insights
 
-### توزيع المبيعات حسب المنطقة (Regional Distribution)
-<p align="center">
-  <img src="./Data%20images/Sales%20in%20the%20region.png" alt="Regional Sales" width="80%">
-</p>
-يظهر الرسم البياني توزيعاً متوازناً للمبيعات عبر المناطق الجغرافية المختلفة، مما يعكس استقرار السوق.
+### **⚠️ Problem: The Discount Trap**
+* **Finding:** Data shows a sharp decline in average revenue per order when discounts exceed **5%**.
+* **Solution:** Recommended a strict **10% discount cap** to preserve profit margins while shifting focus to "Free Shipping" incentives.
 
-### تحليل الإيرادات حسب الفئة (Category Performance)
 <p align="center">
-  <img src="./Data%20images/Total%20Revenue%20by%20Category.png" alt="Category Revenue" width="70%">
+  <img src="./Data%20images/Impact%20of%20Discount%20Percentage%20on%20Average%20Revenue.png" width="70%">
 </p>
-تتقارب الإيرادات بشكل كبير بين فئات الملابس، الإلكترونيات، والتجميل، مما يضمن توازن المحفظة الاستثمارية.
 
-### الوسائل المفضلة للدفع (Payment Insights)
-<p align="center">
-  <img src="./Data%20images/Best%20payment%20methods.png" alt="Best Payment Methods" width="70%">
-</p>
-تتصدر **المحافظ الإلكترونية** قائمة خيارات الدفع، مما يوجهنا لتركيز العروض التسويقية على هذا القطاع.
+### **⚠️ Growth Analysis**
+* **Finding:** Revenue grew steadily from **$16.38M** (2022) to **$16.47M** (2023).
+* **Solution:** Leverage the most popular payment method (**Wallets**) for targeted marketing campaigns to accelerate 2024 growth.
 
 ---
-*تم إعداد هذا التحليل بواسطة محمد شلاطه- محلل بيانات.*
+
+## 🗺️ 3. Visual Analysis Gallery
+
+### Regional Revenue Balance
+<p align="center">
+  <img src="./Data%20images/Sales%20in%20the%20region.png" width="80%">
+</p>
+Global sales are well-balanced across regions, minimizing market-specific risks.
+
+### Category Performance
+<p align="center">
+  <img src="./Data%20images/Total%20Revenue%20by%20Category.png" width="70%">
+</p>
+Fashion, Electronics, and Beauty categories show consistent performance, supporting a diversified product strategy.
+
+---
+*Developed by Muhammad shlata
+- Data Analyst*
